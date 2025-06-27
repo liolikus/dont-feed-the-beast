@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background: url("/home/liolik/MonDNFT/frontend/public/monad_background.png") no-repeat center center fixed;
+  background: url("/public/monad_background.png") no-repeat center center fixed;
   background-size: cover;
   background-color: #744281;
   display: flex;
