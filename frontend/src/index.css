@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: url("/home/liolik/MonDNFT/frontend/public/monad_background.png") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #744281;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background: rgba(7, 7, 7, 0);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 32px 24px;
+  min-width: 340px;
+  max-width: 95vw;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nft-card {
+  background: rgba(87, 84, 84, 0);
+  border-radius: 18px;
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.18);
+  padding: 24px 16px 16px 16px;
+  margin: 24px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 260px;
+}
+
+.beast-img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin: 18px 0 18px 0;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.12);
+}
+
+.no-beast-img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin: 18px 0 18px 0;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.12);
+}
+
+.cute-btn {
+  background: transparent;
+  border: 3px solid #ffb347;
+  border-radius: 20px;
+  padding: 16px 40px;
+  font-size: 1.5em;
+  font-family: 'Luckiest Guy', cursive, sans-serif;
+  font-weight: bold;
+  margin: 24px 0 0 0;
+  cursor: pointer;
+  box-shadow: 0 0 18px 2px #ffb34788, 0 0 0 0 #fff;
+  text-shadow: 1px 2px 8px #fff, 0 2px 8px #ffb347;
+  letter-spacing: 2px;
+  transition: box-shadow 0.2s, border-color 0.2s, color 0.2s, background 0.2s, text-shadow 0.2s;
+  outline: none;
+}
+.cute-btn:hover, .connect-btn:focus {
+  border-color: #ff6f61;
+  color: #fff;
+  background: rgba(255, 111, 97, 0.18);
+  box-shadow: 0 0 32px 8px #ffb347cc, 0 0 16px 4px #ff6f61cc;
+  text-shadow: 1px 2px 16px #fff, 0 2px 16px #ffb347;
+}
+
+/* .cute-btn {
+  background: #ffb347;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+.cute-btn:hover {
+  background: #ffa500;
+  transform: translateY(-2px) scale(1.04);
+} */
+
+h1 {
+  font-family: 'Luckiest Guy', cursive, sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px #fff, 0 2px 8px #ffb347;
+}
+
+p {
+  font-size: 1.1em;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.connect-btn {
+  background: transparent;
+  border: 3px solid #ffb347;
+  border-radius: 20px;
+  padding: 16px 40px;
+  font-size: 1.5em;
+  font-family: 'Luckiest Guy', cursive, sans-serif;
+  font-weight: bold;
+  margin: 24px 0 0 0;
+  cursor: pointer;
+  box-shadow: 0 0 18px 2px #ffb34788, 0 0 0 0 #fff;
+  text-shadow: 1px 2px 8px #fff, 0 2px 8px #ffb347;
+  letter-spacing: 2px;
+  transition: box-shadow 0.2s, border-color 0.2s, color 0.2s, background 0.2s, text-shadow 0.2s;
+  outline: none;
+}
+.connect-btn:hover, .connect-btn:focus {
+  border-color: #ff6f61;
+  color: #fff;
+  background: rgba(255, 111, 97, 0.18);
+  box-shadow: 0 0 32px 8px #ffb347cc, 0 0 16px 4px #ff6f61cc;
+  text-shadow: 1px 2px 16px #fff, 0 2px 16px #ffb347;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px 2vw;
+    min-width: unset;
+  }
+  .nft-card {
+    min-width: unset;
+    padding: 10px 2vw 10px 2vw;
+  }
+  .beast-img {
+    width: 90vw;
+    height: auto;
+    max-width: 260px;
+  }
+}
