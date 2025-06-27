@@ -1,4 +1,6 @@
 # 🐟 DON'T FEED THE BEAST
+![image](https://github.com/user-attachments/assets/e5ae2859-f4c9-4aef-8c4a-476048f8a4d9)
+
 
 A dynamic NFT (ERC721) project for the Monad testnet, where NFTs can level up by burning MON (the native token). This repository contains both the smart contract and a React-based frontend for interacting with the NFT.
 
