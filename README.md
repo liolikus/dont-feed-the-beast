@@ -49,6 +49,8 @@ A dynamic NFT (ERC721) project for the Monad testnet, where NFTs can level up by
   - `Minted(address to, uint256 tokenId)`
   - `LeveledUp(address owner, uint256 tokenId, uint256 newLevel)`
 
+  Deployed at: https://testnet.monadexplorer.com/token/0x8BCd20145E33f5fA82F431921af02A26613154DC
+
 ---
 
 ## Frontend
